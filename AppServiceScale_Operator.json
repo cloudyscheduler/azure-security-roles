@@ -1,0 +1,26 @@
+{
+	"properties": {
+		"roleName": "App Service Operator",
+		"description": "Read App Services, scale out/in, start, stop and restart App Services and App Service Plans",
+		"assignableScopes": [],
+		"permissions": [
+			{
+				"actions": [
+					"Microsoft.Web/serverfarms/Read",
+					"microsoft.web/serverfarms/skus/read",
+					"Microsoft.Web/serverfarms/Write",
+					"Microsoft.Web/sites/Read",
+					"Microsoft.Web/sites/restart/Action",
+					"Microsoft.Web/sites/start/Action",
+					"Microsoft.Web/sites/stop/Action",
+					"Microsoft.Web/sites/slots/restart/Action",
+					"Microsoft.Web/sites/slots/start/Action",
+					"Microsoft.Web/sites/slots/stop/Action"
+				],
+				"notActions": [],
+				"dataActions": [],
+				"notDataActions": []
+			}
+		]
+	}
+}
